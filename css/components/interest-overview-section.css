@@ -1,0 +1,53 @@
+.interest-overview-section {
+  background-color: #CDCBD4;
+  padding: 80px 0; 
+  margin-left: calc(-100vw / 2 + 100% / 2);
+  margin-right: calc(-100vw / 2 + 100% / 2);
+  max-width: 100vw;
+}
+
+
+
+.interest-overview-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.interest-overview-section .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.interest-overview-section .text-content {
+  max-width: 50%;
+  position: relative;
+}
+
+.interest-overview-section .main-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: #142A31;
+  margin-bottom: 20px;
+}
+
+.interest-overview-section .description {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: #142A31;
+}
+
+.interest-overview-section .image-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.interest-overview-section .dark-button {
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
