@@ -25,6 +25,7 @@
 
 .interest-overview-section .text-content {
   max-width: 50%;
+  text-align: left;
   position: relative;
 }
 
