@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.col {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+}
+.logo, .empty-space, .contact {
+    padding: 50px;
+}
+.menu {
+    flex: 2;
+    padding: 50px;
+}
+.search {
+    flex: 1;
+    padding: 25px;
+}
+.vertical-menu {
+    flex: 0.8;
+    padding: 100px;
+}
+.image {
+    flex: 2;
+    padding: 100px;
+}
+.news-articles {
+    flex: 0.8;
+    padding: 100px;
+    position: relative; /* Для вирівнювання вкладеної рамки */
+}
+.news-articles-inner {
+    border: 1px solid black; /* Додаткова внутрішня рамка */
+    padding: 50px; /* Відступ, щоб внутрішній контент не торкався рамки */
+}
+.main-content {
+    flex: 2;
+    padding: 100px;
+}
+.copyright {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
